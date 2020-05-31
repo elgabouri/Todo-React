@@ -1,0 +1,47 @@
+:root {
+  --mainBlue: #005cb2;
+  --lightBlue: #3498db;
+  --mainWhite: #f3f3f3;
+  --mainDark: #17202a;
+  --DarkRed: #8e0000;
+}
+body {
+  font-family: "Merriweather", serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+/* classes to use them later */
+.text-title {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.box {
+  width: 50%;
+  height: auto;
+  border-radius: 25px;
+  border: 3px solid #005cb2;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.btn {
+  width: auto;
+  height: auto;
+  border-radius: 25px;
+  border: 3px solid #6ab7ff;
+  background-color: #6ab7ff;
+  color: #ffffff;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  margin-left: 10px;
+}
+.btn:hover {
+   background-color: #1e88e5;
+}
+
+.btn-sm {
+  margin: 10px;
+}
